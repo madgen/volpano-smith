@@ -1,0 +1,37 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           volpano-smith
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/madgen/volpano-smith#readme>
+homepage:       https://github.com/madgen/volpano-smith#readme
+bug-reports:    https://github.com/madgen/volpano-smith/issues
+author:         Mistral Contrastin
+maintainer:     madgenhetic@gmail.com
+copyright:      2021 Mistral Contrastin
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/madgen/volpano-smith
+
+library
+  exposed-modules:
+      VolpanoSmith
+  other-modules:
+      Paths_volpano_smith
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , ghc-typelits-extra ==0.4.*
+  default-language: Haskell2010
