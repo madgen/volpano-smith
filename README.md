@@ -5,6 +5,8 @@ leak explicitly, implicitly, and even through covert channels. This repository
 defines a simple language that does it and uses GADTs to make data leakage a
 compile time error.
 
+All the source code is in `src/VolpanoSmith.hs`.
+
 The type system is based on Chapter 9 of "[Concrete
 Semantics](http://concrete-semantics.org)" by Tobis Nipkow and Gerwin Klein.
 This in turn is based on the following papers:
